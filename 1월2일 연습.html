@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        nav{
+            position: fixed;
+            top:0;
+            left:0;
+            width:100vw;
+            height:60px;
+            background-color:white;
+            z-index:999;
+        }
+        nav div{
+
+            width:20vw;
+            float:left;
+            box-sizing:border-box;
+            border-right:1px solid black;
+            border-bottom:1px solid black;
+            padding:15px 0;
+            text-align:center;
+        }
+        .detail{
+            position:relative;
+            border:1px solid black;
+            padding:0 20px;
+            margin-bottom:10px;
+
+        }
+        .buffer{
+            position:absolute;
+            top:-65px;
+        }
+        .img{
+            height:500px;
+        }
+    
+    }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+     <div><a href="#1" class="nav1">html</a></div>
+     <div><a href="#2" class="nav1">css</a></div>
+     <div><a href="#3" class="nav1">python</a></div>
+     <div><a href="#4" class="nav1">django</a></div>
+     <div><a href="#5" class="nav1">teamproject</a></div>
+        
+    </nav>>
+
+
+    <div class="detail">
+        <div id="1" class="buffer"></div>
+        <h1 class="title">1.html</h1> 
+        <div>1주차에는 html을 배웁니다.</div>
+        <img src="img/html.jpg">
+    </div>
+    <div class="detail">
+        <div id="2" class="buffer"></div>
+        <h1 class="title">2.css</h1> 
+        <div>2주차에는 css을 배웁니다.</div>
+        <img src="img/html.jpg">
+    </div>
+    <div class="detail">
+        <div id="3" class="buffer"></div>
+        <h1 class="title">3.python</h1> 
+        <div>3주차에는 python을 배웁니다.</div>
+        <img src="img/html.jpg">
+    </div>
+    <div class="detail">
+        <div id="4" class="buffer"></div>
+        <h1 class="title">4.django</h1> 
+        <div>4주차에는 django을 배웁니다.</div>
+        <img src="img/html.jpg">
+    </div>
+    <div class="detail">
+        <div id="5" class="buffer"></div>
+        <h1 class="title">5.teamproject</h1> 
+        <div>5주차에는 팀프로젝트를 배웁니다.</div>
+        <img src="img/html.jpg">
+    </div>
+   
+
+    
+</body>
+</html>
